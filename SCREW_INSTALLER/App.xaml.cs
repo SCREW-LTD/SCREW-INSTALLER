@@ -9,12 +9,12 @@ namespace SCREW_INSTALLER
 {
     public partial class App : Application
     {
-        public static string appName = "SCREW: WS";
-        public static string companyName = "SCREW LTD.";
-        public static string appLogo = @"https://wallet.screwltd.com/logo.png";
-        public static IInstall installer = new UpdatebleInstall("https://remnant.screwltd.com/screw_work_new/Updater.xml");
+        public static string appName = "APP_NAME";
+        public static string companyName = "ORG";
+        public static string appLogo = @"URL";
+        public static IInstall installer = new UpdatebleInstall("URL");
         public static string installPath = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86);
-        public static string workingDerictory = System.IO.Path.Combine("SCREW", "WORKSPACE");
-        public static string runName = "SCREW_WORKSPACE.exe";
+        public static string workingDerictory = System.IO.Path.Combine("ORG", "APP");
+        public static string runName = "run.exe";
     }
 }
